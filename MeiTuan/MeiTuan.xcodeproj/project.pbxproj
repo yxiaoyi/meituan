@@ -15,6 +15,7 @@
 		D2C6F46520673A1600EE6BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6F46420673A1600EE6BAD /* main.m */; };
 		D2C6F46F20673A1600EE6BAD /* MeiTuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6F46E20673A1600EE6BAD /* MeiTuanTests.m */; };
 		D2C6F47A20673A1600EE6BAD /* MeiTuanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6F47920673A1600EE6BAD /* MeiTuanUITests.m */; };
+		D2C6F48920673A9200EE6BAD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6F48820673A9200EE6BAD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D2C6F47520673A1600EE6BAD /* MeiTuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C6F47920673A1600EE6BAD /* MeiTuanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTuanUITests.m; sourceTree = "<group>"; };
 		D2C6F47B20673A1600EE6BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C6F48720673A9200EE6BAD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D2C6F48820673A9200EE6BAD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D2C6F45620673A1600EE6BAD /* AppDelegate.m */,
 				D2C6F45820673A1600EE6BAD /* ViewController.h */,
 				D2C6F45920673A1600EE6BAD /* ViewController.m */,
+				D2C6F48720673A9200EE6BAD /* Person.h */,
+				D2C6F48820673A9200EE6BAD /* Person.m */,
 				D2C6F45B20673A1600EE6BAD /* Main.storyboard */,
 				D2C6F45E20673A1600EE6BAD /* Assets.xcassets */,
 				D2C6F46020673A1600EE6BAD /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				D2C6F45A20673A1600EE6BAD /* ViewController.m in Sources */,
 				D2C6F46520673A1600EE6BAD /* main.m in Sources */,
+				D2C6F48920673A9200EE6BAD /* Person.m in Sources */,
 				D2C6F45720673A1600EE6BAD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
